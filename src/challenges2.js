@@ -88,8 +88,6 @@ function hydrate(str) {
     return `${soma} copo de água`;
   } return `${soma} copos de água`;
 }
-let str = '1 cerveja';
-console.log(hydrate(str));
 
 module.exports = {
   generatePhoneNumber,

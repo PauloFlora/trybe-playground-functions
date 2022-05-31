@@ -1,4 +1,3 @@
-/* eslint-disable complexity */
 // Desafio 1
 function compareTrue(a, b) {
   if (a === true && b === true) {
@@ -69,12 +68,9 @@ function fizzBuzz(fizzBuzzArray) {
   let result = [];
   for (let key of fizzBuzzArray) {
     result.push(fizzBuzzCheck(key));
-    console.log(result);
   }
   return result;
 }
-let a = [7, 9];
-console.log(fizzBuzz(a));
 
 // Desafio 9
 function encode(string) {
